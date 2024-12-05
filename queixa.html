@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div><img src="background.png" alt=""  class="background"></div>
+    <div class="placeholder">    
+        <button class="voltar" onclick="window.location.href='index.html'"><span class="material-symbols-outlined">
+            arrow_back
+            </span>Voltar</button>    
+        <img src="logo (1).png" alt="" class="img" id="voltarr">
+    </div>
+    <div class="div-form-denuncia">
+            <h1 id="h11">Fazer uma denúncia</h1>
+            <label for="" class="label-do-form">Seu nome:</label><input type="text" placeholder="Insira seu nome" class="pessoaname">
+            <label for="" class="label-do-form">Cidade:</label><input type="text" placeholder="Nome da cidade" class="cityname">
+            <label for="" class="label-do-form">Endereço:</label><input type="text" placeholder="Onde está o problema?" class="endereço">
+            <label for="" class="label-do-form">Solicita uma estação de tratamento?(Sim/Não):</label><input type="text" placeholder="Sim/Não" class="sn">
+
+           
+            <label for="" class="label-do-form">Informações adicionais</label><textarea type="text" placeholder="Escreva um pouco sobre o problema" class="infoadicionais"></textarea>
+            <button type="button" onclick="mandawpp()" class="botaozapzap"> Mandar via Whatsapp</button>
+    
+
+
+    </div>
+    
+</body>
+<script src="fonte.js"></script>
+</html>
