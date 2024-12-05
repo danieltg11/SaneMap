@@ -1,5 +1,5 @@
 function mandawpp(){
-    var numerotelefone = '+553799096880'
+    var numerotelefone = '+553798132982'
 
     var nome = document.querySelector('.pessoaname').value
     var cidade = document.querySelector('.cityname').value
