@@ -12,6 +12,23 @@ body{
     z-index: -99;
     filter: blur(3px);
 }
+.botao-doença{
+    margin: auto;
+    height: 7vh;
+    width: 40vw;
+    display: inline-flex;
+    justify-content:left; 
+    align-items: center;
+    border-radius: 5px;
+    border: 0px;
+    font-family: "Cabin", sans-serif;
+    color: white;
+    font-size: 3vh;
+    background-color:rgba(2, 207, 207, 1) ;
+    margin-top: 1vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
 
 .placeholder{
     height: 12vh;
@@ -243,23 +260,7 @@ body{
     font-size: 2.2vh;
     padding-right: 2vw;
 }
-.botao-doença{
-    margin: auto;
-    height: 7vh;
-    width: 40vw;
-    display: inline-flex;
-    justify-content:left; 
-    align-items: center;
-    border-radius: 5px;
-    border: 0px;
-    font-family: "Cabin", sans-serif;
-    color: white;
-    font-size: 5vh;
-    background-color:rgba(2, 207, 207, 1) ;
-    margin-top: 3vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
-        }
+
 .botao-doença-cont{
     width: 90vw;
     display: flex;
@@ -415,7 +416,7 @@ body{
     margin-left:4vw; 
     margin-right:4vw ;
     font-family: "Cabin", sans-serif;
-    color: black;
+    color: white;
     font-size: 4vh;
     text-align: justify;
 }
