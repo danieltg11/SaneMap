@@ -400,7 +400,23 @@ body{
     width: 25vw;
     margin-left: auto;
     margin-right: auto;
-    
+.botao-doença{
+    margin: auto;
+    height: 7vh;
+    width: 40vw;
+    display: inline-flex;
+    justify-content:left; 
+    align-items: center;
+    border-radius: 5px;
+    border: 0px;
+    font-family: "Cabin", sans-serif;
+    color: white;
+    font-size: 4vh;
+    background-color:rgba(2, 207, 207, 1) ;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+        }  
 }
 .infos-cidades:hover{
     background-color: rgba(0, 255, 255, 0);
